@@ -22,10 +22,33 @@ const buses =["doubledecker", "greenbuses","diselbuses" ]
 let user1= {
     useremail1:"givemoney",
     userid: 4,
-    useraddress,
+    useraddress:undefined
 
 }
 // function
 const firstfunction = function(){
     console.log("hello world")
 }
+
+//   Stack (values of primitive data types saves in stack memory)
+// Heap (values of nonprimitive data types saves in heap memory)
+
+let saqi = "suqlain ahmad"
+let man0 = saqi
+man0 = "manwinder kaur"
+console.log(saqi)
+console.log(man0)
+// you can see on above the value of saqi gives to man0 as a copy not as reference the original value doesnot change remains there
+
+let userone={
+         age:9,
+         name:"mano"
+
+}
+let user2 = userone;
+user2.age=8
+console.log(userone.age)
+console.log(user2.age)
+// now you can see above example in primitive data types variable gives refrence to value upon call 
+// other than copy of the value so when you change the value the original value is also changed. like 
+//in this case age of userone is also changed to 8 before change the original value is 9.
