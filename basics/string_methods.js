@@ -13,4 +13,4 @@ console.log(string1.lastIndexOf("b"))
 console.log(string1.charAt(4))
 console.log(string1.split("w"))//This method splits a string into an array of substrings based on a specified separator and returns the array.
 console.log(string1.trim())//This method removes whitespace from both ends of a string.
-console.log(name.slice(2,5)) // this method extracts a section of a string and returns it as a new string. The extracted part starts from the startIndex parameter and extends up to, but not including, the endIndex parameter.
+console.log(name1.slice(2,5)) // this method extracts a section of a string and returns it as a new string. The extracted part starts from the startIndex parameter and extends up to, but not including, the endIndex parameter.
